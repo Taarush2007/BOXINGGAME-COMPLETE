@@ -49,6 +49,8 @@ function setup() {
   beltsprite = createSprite(650,350,50,50);
   beltsprite.addImage(belt);
   beltsprite.scale = 0.5;
+  
+  player2.setCollider("rectangle",0,0,100,300);
 }
 
 function draw() {
